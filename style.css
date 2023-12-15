@@ -1,0 +1,15 @@
+body {
+    background-image: url('change\ blue.webp');
+    background-size: cover;
+    
+}
+h1 {
+    color: white;
+    font-size: 7em;
+    font-family: Fredoka One , cursive;
+    text-align: center;
+}
+img {
+    width: 70px;
+    margin-left: 565px;
+} 

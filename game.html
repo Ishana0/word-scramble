@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>    
+<body>
+    <h1>WORD SCRAMBLE GAME</h1>
+    <div class="rectangle">
+        <div class="content">
+            <p class="word"></p>
+        </div>
+        <div id="details">
+            <p >Hint: <span id="hint"></span></p>
+            <p id="time">Time Left: <span><b>30</b>s</span></p>
+        </div>
+        <input id="crt-wrd" placeholder="Enter a valid word" type="text">
+        <input id="refresh-btn" type="button" value="Refresh Word">
+        <input id="check-btn" type="button" value="Check Word">
+    </div>
+</body>
+<script src="game.js" type="module"></script>
+<script src="words.js" type="module"></script>
+</html>

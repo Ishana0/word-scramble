@@ -1,0 +1,79 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url('change\ blue.webp');
+    background-size: cover;
+} 
+h1 {
+    color: white;
+    font-size: 4em;
+    font-family: Fredoka One , cursive;
+    text-align: center;
+    margin-top: 2px;
+}
+.rectangle {
+    height: 445px;
+    width: 1090px;
+    border: 1px solid black;
+    margin-left: 60px;
+    position: relative;
+    bottom: 23px; 
+}
+.word {
+    font-family: Fredeko One , cursive;
+    position: relative;
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    left: 350px;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 24px;
+}
+#details {
+    font-family: Fredeko One , cursive;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 350px;
+    /* border: 1px solid black; */
+}
+#crt-wrd {
+    background-color: white;
+    height: 1.5cm;
+    width: 7cm;
+    border: none;
+    font-family: Fredoka One, cursive;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 400px;
+}
+ #refresh-btn {  
+    background-color: gray;
+    height: 1.5cm;
+    width: 6cm;
+    border: none;
+    font-family: Fredoka One, cursive;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 550px;
+}
+#check-btn {
+    background-color: #5372f0;
+    height: 1.5cm;
+    width: 6cm;
+    border: none;
+    font-family: Fredoka One, cursive;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    left: 700px;
+} 

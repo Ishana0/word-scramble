@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <h1>WORD SCRAMBLE GAME</h1>
+    <h2>PROFILE</h2>
+    <div>
+    <h3>USER NAME:
+        <input type="text" id="name">
+    </h3>
+    <h3>NICK NAME:
+        <input type="text" id="nick-name">
+    </h3>
+    <input id="submit" type="SUBMIT">
+</div>
+</body>
+<script>
+    var submit = document.getElementById("submit")
+    submit.onclick= () => {
+        window.location.href = "./game.html"
+    }
+</script>
+</html>
