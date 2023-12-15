@@ -11,7 +11,6 @@ let wordsArray = words
 for(let i = 0; i<wordsArray.length; i++) {
     let num = getRandomInt()
     if(i == num) {
-        console.log(wordsArray)
         // console.log(num)
         // console.log(words[i].jumbledWord)
         // console.log(words[i].hint)
@@ -21,7 +20,7 @@ for(let i = 0; i<wordsArray.length; i++) {
         checkBtn.onclick = () => {
             if(inputField.value.toLowerCase() == words[i].word) {
                 alert("You are right")
-                setInterval(timer,1000);
+                clearInterval(timer, 1000);
                 location.reload()
             }else if(inputField.value != words[i].word && inputField.value != "") {
                 alert("You are wrong and the correct word is "+correctWord)
@@ -36,7 +35,7 @@ for(let i = 0; i<wordsArray.length; i++) {
 
 
 refreshBtn.onclick = () => {
-    setInterval(timer,1000);
+    clearInterval(timer, 1000);
     location.reload();
 }
 
@@ -54,7 +53,7 @@ function timer() {
     }
     time--;
 }
-setInterval(timer,1000);
+let interval= setInterval(timer,1000);
 
 
 
