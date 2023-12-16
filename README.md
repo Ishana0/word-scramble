@@ -18,3 +18,12 @@ HTML, CSS, JAVASCRIPT
 Google from CodingNepal
 # GAME RESULT
 ![image](https://github.com/Ishana0/word-scramble/assets/149377292/7a6b6203-c1e7-4664-96dc-42a155c41f20)
+
+![image](https://github.com/Ishana0/word-scramble/assets/149377292/47868b29-d007-4c18-8b71-f499c67b6c0d)
+
+![image](https://github.com/Ishana0/word-scramble/assets/149377292/2460a794-1ba0-4139-9dad-17c6f8630e5c)
+
+![image](https://github.com/Ishana0/word-scramble/assets/149377292/262dd7db-8afa-4511-aab2-01a9f93b7266)
+
+
+
