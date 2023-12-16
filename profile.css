@@ -1,18 +1,17 @@
 body {
     background-image: url('change\ blue.webp');
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: white;
     font-size: 5em;
-    font-family: Fredoka One , cursive;
     text-align: center;
     margin-top: 25px;
 }
 h2 {
     color: white;
     font-size: 3em;
-    font-family: Fredoka One, cursive;
     text-align: center;
     position: relative;
     bottom: 25px;
@@ -22,7 +21,6 @@ div {
     margin-left: 400px;
     color: white;
     font-size: 1.5em;
-    font-family: Fredoka One, cursive;
 }
 #name {
     font-size: x-large;
@@ -39,7 +37,6 @@ input {
     height: 1.5cm;
     width: 8cm;
     border: none;
-    font-family: Fredoka One, cursive;
     color: black;
     font-size: 1em;
     margin-top: 10px;

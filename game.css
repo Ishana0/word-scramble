@@ -5,11 +5,11 @@ html {
 body {
     background-image: url('change\ blue.webp');
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 h1 {
     color: white;
     font-size: 4em;
-    font-family: Fredoka One , cursive;
     text-align: center;
     margin-top: 2px;
 }
@@ -22,7 +22,6 @@ h1 {
     bottom: 23px; 
 }
 .word {
-    font-family: Fredeko One , cursive;
     position: relative;
     font-size: 45px;
     font-weight: 500;
@@ -35,7 +34,6 @@ h1 {
     letter-spacing: 24px;
 }
 #details {
-    font-family: Fredeko One , cursive;
     font-size: 1.5em;
     color: white;
     margin-left: 350px;
@@ -46,7 +44,6 @@ h1 {
     height: 1.5cm;
     width: 7cm;
     border: none;
-    font-family: Fredoka One, cursive;
     color: black;
     font-size: 1.5em;
     margin-left: 400px;
@@ -56,7 +53,6 @@ h1 {
     height: 1.5cm;
     width: 6cm;
     border: none;
-    font-family: Fredoka One, cursive;
     color: white;
     font-size: 1.5em;
     text-align: center;
@@ -69,7 +65,6 @@ h1 {
     height: 1.5cm;
     width: 6cm;
     border: none;
-    font-family: Fredoka One, cursive;
     color: white;
     font-size: 1.5em;
     text-align: center;

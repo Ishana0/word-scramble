@@ -1,12 +1,12 @@
 body {
     background-image: url('change\ blue.webp');
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 h1 {
     color: white;
     font-size: 7em;
-    font-family: Fredoka One , cursive;
     text-align: center;
 }
 img {
